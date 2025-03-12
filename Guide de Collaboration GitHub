@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Guide de Collaboration GitHub</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #333;
+    }
+    pre, code {
+      background-color: #eee;
+      padding: 8px;
+      border-radius: 4px;
+      overflow-x: auto;
+    }
+    ul {
+      margin: 0 0 20px 20px;
+    }
+    .step {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Guide de Collaboration GitHub</h1>
+    <p>Bienvenue dans notre aventure GitHub ! Ce guide est là pour vous assurer que la gestion des tâches se passe sans embûches, et pour vous rappeler qu'en équipe, même les bugs se transforment en challenges amusants.</p>
+
+    <div class="step">
+      <h2>Étape 1 : Configuration de GitHub</h2>
+      <ul>
+        <li>Créez un compte GitHub si ce n'est pas déjà fait.</li>
+        <li>Invitez votre collaborateur à rejoindre le repository.</li>
+        <li>Assurez-vous que chacun a bien accès aux bonnes permissions.</li>
+      </ul>
+    </div>
+
+    <div class="step">
+      <h2>Étape 2 : Clonage du Repository</h2>
+      <p>Pour démarrer, clonez le repository avec cette commande :</p>
+      <pre><code>git clone https://github.com/votre-utilisateur/votre-repository.git</code></pre>
+    </div>
+
+    <div class="step">
+      <h2>Étape 3 : Gestion des Branches</h2>
+      <p>Travaillez chacun sur vos propres branches pour éviter les conflits. Par exemple :</p>
+      <pre><code>git checkout -b nouvelle-fonctionnalité</code></pre>
+    </div>
+
+    <div class="step">
+      <h2>Étape 4 : Commit et Push</h2>
+      <p>Une fois vos modifications prêtes, n'oubliez pas de commit et de push :</p>
+      <pre><code>git add .
+git commit -m "Description de vos modifications"
+git push origin votre-branche</code></pre>
+    </div>
+
+    <div class="step">
+      <h2>Étape 5 : Pull Request</h2>
+      <p>Créez une Pull Request sur GitHub pour discuter et valider les modifications. C'est le moment de mettre en avant vos talents de codeur collaboratif (et de partager quelques GIFs motivants) !</p>
+    </div>
+
+    <div class="step">
+      <h2>Étape 6 : Suivi des Tâches avec GitHub Issues</h2>
+      <p>Pour une gestion sans faille des tâches :</p>
+      <ul>
+        <li>Créez une issue pour chaque tâche ou bug.</li>
+        <li>Assignez les issues aux personnes concernées.</li>
+        <li>Mettez à jour le statut pour suivre l'avancement.</li>
+      </ul>
+    </div>
+
+    <div class="step">
+      <h2>Conclusion</h2>
+      <p>En résumé, la clé d'un projet réussi réside dans une communication efficace et une bonne organisation. Restez motivé, travaillez en équipe et souvenez-vous : chaque commit est une victoire !</p>
+    </div>
+  </div>
+</body>
+</html>
